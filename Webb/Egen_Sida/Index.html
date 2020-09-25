@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
+    <title>Mitt CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Content/Boselaphus_tragocamelus1.jpg">
+
 </head>
 <body>
-    <ul>
-        <li class="flex2">Sidan Om Mig</li>
-        <li class="flex3">(Inledning)</li>
-        <li class="flex1">(Länk 1)</li>
-        <li class="flex1">(Länk 2)</li>
-        <li class="flex1">(länk 3)</li>
-        <li class="flex1">(länk 4)</li>
-    </ul>
-<div>
-    <div class="blackbar"></div>
-</div>
+    <div class="parant">
+        <div>
+    <button onclick="goBack()">Byeee</button>
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+        </div>
+        <ul>
+            <li class="titelfont1">Välkommen till sidan om mig</li>
+            <li>Denna sidan handlar om mig, mina intressen och min skola.
+                Nedanför finns det fyra olika länkar till texter om mig.
+            </li>
+            <div>
+                <li><a class="lank" href="me.html">Om Mig</a></li>
+                <li><a class="lank" href="interests.html">Mina Intressen</a></li>
+                <li><a class="lank" href="school.html">Min Skola</a></li>
+                <li><a class="lank" href="courses.html">Mina kurser</a></li>
+            </div>
+        </ul>
+        <img src="Content/Boselaphus_tragocamelus1.jpg" alt="Det är Jag" width="500" height="400">
+        <div>
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+        </div>
+    </div>
 </body>
 </html>
