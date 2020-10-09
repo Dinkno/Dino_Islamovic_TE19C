@@ -1,0 +1,15 @@
+
+
+.container {
+    display: flex;
+}
+
+.item {
+    height: 100px;
+    background-color: aqua;
+    flex-grow: 1;  
+}
+
+.item + .item {
+    margin-left: 2%;
+}
