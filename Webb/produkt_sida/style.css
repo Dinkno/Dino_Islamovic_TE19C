@@ -3,7 +3,7 @@
   height: 50px;
   align-items: stretch;
   justify-content: space-evenly;
-  background-color: gray;
+  background-color: #262626;
 }
 
 .item {
@@ -11,7 +11,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
@@ -33,7 +32,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline ;
 }
 
 .rubrik {
@@ -67,4 +68,16 @@ footer {
   padding: 10px;
   background-color: darkgray;
   color: white;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #313131;
+  text-decoration: underline;
 }
