@@ -6,6 +6,10 @@
   background-color: #262626;
 }
 
+body {
+  background-color: rgb(219, 219, 219);
+}
+
 .item {
   flex-grow: 1;
   display: flex;
@@ -15,6 +19,22 @@
   font-size: large;
 }
   
+.varukorg {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  height: auto;
+  margin-right:50px ;
+  width: 10px;
+}
+
+.titel + .varukorg {
+  margin-left: 2%;
+}
+
 .item + .item {
   margin-left: 2%;
 }
@@ -41,14 +61,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
   height: 200px;
 }
 
 .container2 {
   display: flex;
   justify-content: space-evenly;
-  background-color: blue;
   height: 300px;
 }
 
@@ -65,10 +83,14 @@
 
 footer {
   text-align: center;
+  position: fixed;
   padding: 10px;
   background-color: darkgray;
   color: white;
+  width: 100%;
+  bottom: 0;
 }
+
 
 a:link, a:visited {
   color: white;
@@ -81,3 +103,4 @@ a:hover, a:active {
   background-color: #313131;
   text-decoration: underline;
 }
+
